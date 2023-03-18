@@ -24,6 +24,7 @@ export default function App() {
       return [
         {text: text, key:Math.random().toString()},
         ...prevTodos
+        
       ];
     })
   }
